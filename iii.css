@@ -11,7 +11,7 @@ html {
 body {
   margin: 0px;
   padding: 0px;
-  background-color: #da6d23;
+  background: linear-gradient(to bottom,#fff,#b9c3c4,#984a19);
 }
 .layar-dalam {
   width: 1000px;
@@ -351,7 +351,7 @@ margin-bottom: 1rem;
 }
 footer {
   padding: 50px 0px 50px 0px;
-  background-color: #343a40;
+  background-color:#0f0a06;
   color: #fff;
 }
 footer .layar-dalam {
@@ -376,6 +376,7 @@ footer .layar-dalam .copyright {
 }
 
 /* container slider start */
+
 .container{
   position: relative;
   background: #FFC600;
