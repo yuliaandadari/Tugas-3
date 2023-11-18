@@ -1,0 +1,190 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    background-color: #0f0e0e;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.navbar {
+    width: 1000px;
+    margin:auto;
+}
+
+.video-penuh {
+    width: 100%;
+}
+
+nav {
+    z-index: 100;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    border-bottom: 1px solid #b1b1b1;
+    line-height: 60px;
+    width: 100%;
+}
+
+nav .biru {
+    float: left;
+    position: relative;
+    text-align: center;
+    width: 15%;
+   
+}
+
+nav .logo {
+    float: left;
+    position: relative;
+    line-height: 55px;
+    text-align:center;
+}
+
+nav .menu {
+    float: right;
+    height: 60px;
+    max-width: 600px;
+}
+
+nav .menu ul {
+    list-syle-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav .menu ul li {
+    list-style: none;
+    float:left;
+    line-height: 60px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown-content:hover .dropbtn {
+    background-color: #c85250;
+    transition: all 0.5s ease;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgb(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*pengaturan header */
+header {
+    position:relative;
+    height: 100;
+    width: 100%;
+    overflow: hidden;
+    z-index: 2;
+}
+
+header video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;  
+    object-fit: cover;
+    z-index: 2;
+}
+header .intro {
+    z-index: 100;
+    color: #f1f1f1;
+    text-align: center;
+    position: relative;
+    top: 50%;
+}
+
+header .intro h3 {
+    font-size: 50px;
+    margin-top: 2rem;
+    padding: 0;
+}
+
+.tombol {
+    background-color: #c86b85;
+    height: 40px;
+    line-height: 42px;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px 20px 0px 20px;
+    font-size: 15px;
+    border-radius: 4px;
+}
+
+header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+    opacity: 50%;
+    z-index: -1;
+}
+
+.button-menu {
+    position: absolute;
+    top: 1.7rem;
+    right: 1rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+}
+
+.button-menu .garis {
+    height: 3px;
+    background-color: azure;
+}
+
+@media screen and (max-width: 991.98px) {
+    .navbar {
+        width: 90%;
+    }
+    nav .menu ul {
+        display: none;
+    }
+    .tombol-menu {
+        display: flex;
+    }
+}
