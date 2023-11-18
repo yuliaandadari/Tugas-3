@@ -11,7 +11,7 @@ html {
 body {
   margin: 0px;
   padding: 0px;
-  background: linear-gradient(to bottom,#fff,#b9c3c4,#984a19);
+  background: linear-gradient(to bottom, #fff, #b9c3c4, #984a19);
 }
 .layar-dalam {
   width: 1000px;
@@ -144,7 +144,7 @@ section {
 section h3 {
   font-size: 30px;
 }
-section h3::after{
+section h3::after {
   content: "";
   border-bottom: 5px solid #1c75bc;
   width: 52px;
@@ -152,7 +152,7 @@ section h3::after{
   margin: 20px auto;
 }
 
-.about-tittle h5{
+.about-tittle h5 {
   text-align: center;
 }
 section h5 {
@@ -183,16 +183,32 @@ section h5 {
 }
 
 .mitra-support img {
-  width: 80%;
+  width: 60%;
   border-radius: 50%;
 }
 
 .mitra-support p {
-   font-family: 'comic sans ms';
-   font-weight: 800;
-   font-size: 15px;
-   text-align: center;
-   color: #364f6b;
+  font-family: "comic sans ms";
+  font-weight: 800;
+  font-size: 15px;
+  text-align: center;
+  color: #364f6b;
+}
+
+.tombol-support {
+  background-color: #fff;
+  height: 40px;
+  line-height: 42px;
+  color: #364f6b;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0px 20px 0px 20px;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.tombol-support:hover {
+  font-size: 20px;
 }
 #aboutus {
   text-align: center;
@@ -226,7 +242,7 @@ section.abuabu {
   justify-content: space-around;
 }
 
-.recommendation{
+.recommendation {
   margin-left: 5rem;
   margin-right: 5rem;
   display: flex;
@@ -234,26 +250,25 @@ section.abuabu {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-
 }
 
-.recomen-container{
+.recomen-container {
   display: flex;
 }
 
-.recomen-container img{
+.recomen-container img {
   width: 15rem;
   height: 15rem;
-  border-radius: 30PX;
+  border-radius: 30px;
 }
-.recomen-container i{
+.recomen-container i {
   font-size: 2rem;
   margin: 1rem;
 }
-.recomen-img h7{
-margin-bottom: 1rem;
+.recomen-img h7 {
+  margin-bottom: 1rem;
 }
-.recomen-content{
+.recomen-content {
   margin-top: 3rem;
   margin-left: 2rem;
   display: flex;
@@ -263,7 +278,7 @@ margin-bottom: 1rem;
   align-items: center;
 }
 
-.recomen-content .r-c-desc p{
+.recomen-content .r-c-desc p {
   width: 70%;
 }
 
@@ -271,7 +286,7 @@ margin-bottom: 1rem;
   text-align: right;
   margin-right: 2rem;
   margin-left: 11rem;
-} 
+}
 
 /* .support div,
 .tim div {
@@ -351,7 +366,7 @@ margin-bottom: 1rem;
 }
 footer {
   padding: 50px 0px 50px 0px;
-  background-color:#0f0a06;
+  background-color: #0f0a06;
   color: #fff;
 }
 footer .layar-dalam {
@@ -377,29 +392,29 @@ footer .layar-dalam .copyright {
 
 /* container slider start */
 
-.container{
+.container {
   position: relative;
-  background: #FFC600;
+  background: #ffc600;
 }
 
-.slide-1{
+.slide-1 {
   background: url(images/ASIA.jpg);
 }
 
-.slide-2{
+.slide-2 {
   background: url(images/eropaaa.jpg);
 }
-.slide-3{
+.slide-3 {
   background: url(images/africa.jpg);
 }
-.slide-4{
+.slide-4 {
   background: url(images/australia.jpg);
 }
-.slide-5{
+.slide-5 {
   background: url(images/amerika.jpg);
 }
 
-.slide{
+.slide {
   width: 100%;
   height: 100vh;
   background-size: cover;
@@ -407,17 +422,16 @@ footer .layar-dalam .copyright {
   position: relative;
   overflow-x: hidden;
 }
-.caption{
+.caption {
   background: #15222c14;
   width: 100%;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   padding: 40px 0px;
-
 }
 
-.caption h2{
+.caption h2 {
   color: #fff7f7;
   text-align: center;
   font-size: 50px;
@@ -425,7 +439,7 @@ footer .layar-dalam .copyright {
   text-shadow: 10px 10px 20px rgb(1, 1, 3, 0.7);
 }
 
-.caption p{
+.caption p {
   max-width: 600px;
   width: 90px;
   margin: 0px auto;
@@ -437,30 +451,30 @@ footer .layar-dalam .copyright {
   text-shadow: 10px 10px 20px rgb(1, 1, 3, 0.7);
 }
 
-.arrow{
+.arrow {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   cursor: pointer;
   z-index: 100;
-  background: rgba(0, 0, 0, 0, .1);
+  background: rgba(0, 0, 0, 0, 0.1);
   border-radius: 50%;
   transform: background 500ms;
 }
 
-.arrow img{
-width: 50px;
+.arrow img {
+  width: 50px;
 }
 
-.arrow:hover{
-  background: rgba(0, 0, 0, 0, .4);
+.arrow:hover {
+  background: rgba(0, 0, 0, 0, 0.4);
 }
 
-.l{
+.l {
   left: 0;
 }
 
-.r{
+.r {
   right: 0;
 }
 
@@ -506,7 +520,6 @@ form button {
   background: transparent;
   color: #fff;
 }
-
 
 /* container slider end */
 
